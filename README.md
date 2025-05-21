@@ -1,4 +1,23 @@
-# C++ STL Full Example 🚀
+## 🔹 STL (Standard Template Library) in C++
+
+The **STL** is a powerful library in C++ that provides a set of common classes and functions for handling data structures and algorithms efficiently.
+
+### 📦 1. Containers – Store Data
+
+| Container           | Description                                |
+|---------------------|--------------------------------------------|
+| `vector`            | Dynamic array                              |
+| `list`              | Doubly linked list                         |
+| `deque`             | Double-ended queue                         |
+| `stack`             | LIFO structure (usually built over deque)  |
+| `queue`             | FIFO structure                             |
+| `priority_queue`    | Max-heap or Min-heap                       |
+| `set` / `unordered_set` | Store unique elements                |
+| `map` / `unordered_map` | Key-value pairs (like dictionaries)   |
+
+Each container serves a specific use case and is optimized for certain types of operations (e.g., fast insertions, random access, ordering, etc.).
+
+---
 
 This project demonstrates the usage of the **Standard Template Library (STL)** in C++. It includes all the major STL components like:
 
