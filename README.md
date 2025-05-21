@@ -112,8 +112,6 @@ int main() {
     ages["Bob"] = 30;
     for (auto pair : ages)
         cout << pair.first << ": " << pair.second << endl;
-    // Alice: 25
-    // Bob: 30
     cout << "\n";
 
     cout << "=== UNORDERED MAP ===" << endl;
@@ -121,11 +119,6 @@ int main() {
         {"Math", 90}, {"Physics", 85}, {"Chemistry", 88}};
     for (auto pair : scores)
         cout << pair.first << ": " << pair.second << endl;
-    // Order not guaranteed
-    // Example:
-    // Chemistry: 88
-    // Physics: 85
-    // Math: 90
     cout << "\n";
 
     cout << "=== ALGORITHMS (find, count, binary_search) ===" << endl;
