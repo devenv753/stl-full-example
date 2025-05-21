@@ -26,27 +26,28 @@ This project demonstrates the usage of the **Standard Template Library (STL)** i
 
 ## Code Example (C++)
 ---
-#include <iostream>
-#include <vector>
-#include <list>
-#include <deque>
-#include <stack>
-#include <queue>
-#include <set>
-#include <map>
-#include <unordered_set>
-#include <unordered_map>
-#include <algorithm>
-#include <numeric> // for accumulate
 
-using namespace std;
+#include <iostream> <br/>
+#include <vector> <br/>
+#include <list> <br/>
+#include <deque> <br/>
+#include <stack> <br/>
+#include <queue> <br/>
+#include <set> <br/>
+#include <map> <br/>
+#include <unordered_set> <br/>
+#include <unordered_map> <br/>
+#include <algorithm> <br/>
+#include <numeric> // for accumulate <br/>
 
-int main() {
-    cout << "=== VECTOR ===" << endl;
-    vector<int> vec = {5, 1, 4, 2, 3};
-    sort(vec.begin(), vec.end()); // Sort in ascending order
-    for (int val : vec) cout << val << " "; // 1 2 3 4 5
-    cout << "\nSum: " << accumulate(vec.begin(), vec.end(), 0) << "\n\n"; // Sum: 15
+using namespace std; <br/>
+
+int main() { <br/>
+    cout << "=== VECTOR ===" << endl; <br/>
+    vector<int> vec = {5, 1, 4, 2, 3}; <br/>
+    sort(vec.begin(), vec.end()); // Sort in ascending order <br/>
+    for (int val : vec) cout << val << " "; // 1 2 3 4 5 <br/>
+    cout << "\nSum: " << accumulate(vec.begin(), vec.end(), 0) << "\n\n"; // Sum: 15 <br/>
 
     cout << "=== LIST ===" << endl;
     list<string> fruits = {"Mango", "Apple", "Banana"};
