@@ -158,6 +158,45 @@ int main() { <br/>
     return 0;
 }
 ---
+## PHP Example
+
+<?php
+echo "=== ARRAY (VECTOR Equivalent) ===\n";
+$vec = [5, 1, 4, 2, 3];
+sort($vec);
+print_r($vec);
+echo "Sum: " . array_sum($vec) . "\n\n";
+
+echo "=== LINKED LIST LIKE ===\n";
+$fruits = ["Mango", "Apple", "Banana"];
+array_unshift($fruits, "Orange");
+sort($fruits);
+print_r($fruits);
+
+echo "\n=== QUEUE ===\n";
+$queue = ["C++", "Java", "Python"];
+while (!empty($queue)) {
+    echo array_shift($queue) . " ";
+}
+
+echo "\n\n=== STACK ===\n";
+$stack = [100, 200, 300];
+while (!empty($stack)) {
+    echo array_pop($stack) . " ";
+}
+
+echo "\n\n=== ASSOCIATIVE ARRAY (MAP) ===\n";
+$ages = ["Alice" => 25, "Bob" => 30];
+foreach ($ages as $name => $age) {
+    echo "$name: $age\n";
+}
+
+echo "\n=== SEARCH & COUNT ===\n";
+if (in_array(2, $vec)) echo "2 Found\n";
+echo "Count of 2: " . count(array_filter($vec, fn($v) => $v == 2)) . "\n";
+?>
+
+---
 Output Link: https://www.programiz.com/online-compiler/52EMcWy21fHpk
 
 
