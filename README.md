@@ -2,7 +2,7 @@
 
 The **STL** is a powerful library in C++ that provides a set of common classes and functions for handling data structures and algorithms efficiently.
 
-### 📦 1. Containers – Store Data
+### 📦 Containers – Store Data
 
 | Container           | Description                                |
 |---------------------|--------------------------------------------|
